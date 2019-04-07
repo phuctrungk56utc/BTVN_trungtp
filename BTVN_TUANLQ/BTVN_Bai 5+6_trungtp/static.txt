@@ -1,0 +1,3 @@
+﻿+ biến static được khởi tạo khi trương trình được load vào ram(với computer)
+và được khởi tạo khi ta cần 1 biến toàn cục(với dev)
++ nó lưu ở stack

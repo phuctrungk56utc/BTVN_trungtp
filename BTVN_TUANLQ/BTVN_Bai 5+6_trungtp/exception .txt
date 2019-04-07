@@ -1,0 +1,8 @@
++ t?ng h?p exception em bi?t có trong python
+1: IOError (Input Otput Error) – If the file cannot be opened
+
+2: ImportError – If Python cannot find the module
+
+3:ValueError – Raised when the user hits the interrupt key (normally ctrl+c or delete)
+
+4:EOFError (End of File Error) – Raised when one of the built-in functions (input() or raw_input()) hits an end-of-file condition (EOF) without reading any data.
