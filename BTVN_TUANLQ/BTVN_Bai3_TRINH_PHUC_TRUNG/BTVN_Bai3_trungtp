@@ -1,0 +1,9 @@
++ phan tich bai toan.
+1byte = 8bit
+PNG: Mỗi pixel chứa 3 byte (đại diện cho đỏ ,lục và lam)
+Nên công thức tính dung lượng 1 bức ảnh PNG là = (N x 3)/1024 (*) với N là số pixel
+Vậy ảnh 100x100 PNG = 29,29
+BMP: Nếu n là số bit trên mỗi điểm ảnh thì 1 ảnh BMP n bit có 2^n màu =&gt; dung lượng = (n (bit) x N
+(pixel)) /(8x1024) (**)
+Lấy (** )/(*) = n/24 (n số bit của ảnh BMP)
+Từ đây với n = 24bit ở BMP thì 2 ảnh = nhau
