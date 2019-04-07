@@ -1,0 +1,7 @@
+ 
+Vấn đề: ta có bài toán 5 triết gia ăn tối ở giữa là 1 chiếc đĩa lớn và ở giữa mỗi triết gia có 5 chiếc đũa, họ sẽ ăn khi đói và đk là phải cso 2 đũa để ăn thêm vậy yêu cầu bài toán là với 5 triết gia và 5 chiếc đũa thì khi triết gia đói họ sẽ phải xử lý ntn 
+để không bị rơi vào trường hợp mỗi ng giữ 1 chiếc đũa và chờ ng kia nhả đũa để đc ăn(dealock)
+trường hợp này thì ai cũng không đc ăn và cứ chờ ng kia mãi mãi.
+
+
++, Theo tìm hiểu thì em thấy chỉ có 1 cách duy nhất để giải quyết bài toán là phải làm ntn đó mà 1 bàn luôn có ít nhất 1 ng bị đói vì khi đó thì ta sẽ còn số ng là 4 và 5 đũa vậy 4 ng có 4 đũa và 1 ng sẽ có 2 đũa => ng này đc ăn => hết đói và nhả đũa => đến ng tiếp theo cứ vậy bt sẽ đc giải quyết, đã update lại theo yêu cầu sử dụng github.
